@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+h4 {
+	background: #f00000;
+	background: -webkit-linear-gradient(to right, #dc281e, #f00000);
+	background: linear-gradient(to right, #dc281e, #f00000);
+
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-weight: 900;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	background: #e65c00;
+	background: -webkit-linear-gradient(to right, #f9d423, #e65c00);
+	background: linear-gradient(to right, #f9d423, #e65c00);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+form #input {
+	width: 85%;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	background-color: #f0f0f0;
+	box-shadow: 2px 2px 5px #babecc;
+	border: 2px solid #cbcfdd;
+	border-radius: 5px;
+	color: #555;
+	font-weight: 400;
+}
+
+form #input:focus {
+	box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+	outline: none;
+	color: #222;
+}
+
+form #btn {
+	padding: 0.3rem 0.6rem;
+	border: none;
+	border-radius: 50%;
+	font-size: 1.1rem;
+	border: 5px solid #babecc;
+	width: 11%;
+}
+
+.card {
+	margin-top: 1rem;
+	width: 27rem;
+	height: 100%;
+	padding: 1.3rem 1.1rem;
+	color: #555;
+	background-color: #ebecf0;
+	box-shadow: 2px 2px 20px #babecc, -2px -2px 20px #ddd;
+	margin-bottom: 5rem;
+}
+
+strong {
+	color: #111;
+	font-size: 1.1rem;
+}
+
+.atmosphere {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.city-details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.city-details ul {
+	list-style: none;
+}
+
+.temperature h3 {
+	background: #000000;
+	background: -webkit-linear-gradient(to right, #0f9b0f, #000000);
+	background: linear-gradient(to right, #0f9b0f, #000000);
+
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.description {
+	font-size: 1.1rem;
+	padding-bottom: 1rem;
+}
+
+.img {
+	border: 8px solid #999;
+	width: 130px;
+	height: 125px;
+	border-radius: 60%;
+	background: #777;
+	position: absolute;
+	top: 87%;
+	text-align: center;
+	left: 35%;
+	transition: all 0.3s;
+}
+
+hr {
+	padding: 0.7rem 0;
+}
+
+.img:hover {
+	transform: scale(1.1);
+}
+
+@media all and (max-width: 450px) {
+	.card {
+		width: 95vw;
+	}
+
+	form #input {
+		width: 80%;
+	}
+
+	form #btn {
+		width: 13%;
+	}
+
+	strong {
+		font-size: 0.9rem;
+	}
+
+	h4 {
+		font-size: 1.3rem;
+	}
+}
