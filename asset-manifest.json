@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/openweathermapapi/static/js/main.c63ebf44.chunk.js",
+    "main.js.map": "/openweathermapapi/static/js/main.c63ebf44.chunk.js.map",
+    "runtime-main.js": "/openweathermapapi/static/js/runtime-main.bfb882fb.js",
+    "runtime-main.js.map": "/openweathermapapi/static/js/runtime-main.bfb882fb.js.map",
+    "static/js/2.2d265f19.chunk.js": "/openweathermapapi/static/js/2.2d265f19.chunk.js",
+    "static/js/2.2d265f19.chunk.js.map": "/openweathermapapi/static/js/2.2d265f19.chunk.js.map",
+    "index.html": "/openweathermapapi/index.html",
+    "precache-manifest.238ba0cf0a3b17b052aa30fc6b07dede.js": "/openweathermapapi/precache-manifest.238ba0cf0a3b17b052aa30fc6b07dede.js",
+    "service-worker.js": "/openweathermapapi/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfb882fb.js",
+    "static/js/2.2d265f19.chunk.js",
+    "static/js/main.c63ebf44.chunk.js"
+  ]
+}
